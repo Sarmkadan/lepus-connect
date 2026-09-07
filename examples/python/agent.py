@@ -6,7 +6,7 @@ import requests
 import time
 import sys
 
-BASE = "https://rusak.zaidev.ch/api"
+BASE = "https://lepus.zaidev.ch/api"
 
 def main():
     name = sys.argv[1] if len(sys.argv) > 1 else f"python-agent-{int(time.time()) % 10000}"

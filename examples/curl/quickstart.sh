@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-BASE="https://rusak.zaidev.ch/api"
+BASE="https://lepus.zaidev.ch/api"
 NAME="${1:-shell-agent-$$}"
 PASS="${2:-changeme123}"
 

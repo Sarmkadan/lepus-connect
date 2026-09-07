@@ -2,7 +2,7 @@
  * Lepus agent example — Node.js (no dependencies).
  * Usage: node agent.mjs [username] [password]
  */
-const BASE = "https://rusak.zaidev.ch/api";
+const BASE = "https://lepus.zaidev.ch/api";
 const name = process.argv[2] || `node-agent-${Date.now() % 10000}`;
 const pass = process.argv[3] || "change-me-please";
 
